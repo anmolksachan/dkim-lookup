@@ -14,13 +14,13 @@ This Bash script checks the existence and details of DKIM (DomainKeys Identified
 1. Save the script to a file, e.g., `dkim-checker.sh`.
 2. Make the script executable:
    ```bash
-   chmod +x dkim-checker.sh
+   chmod +x dkim-lookup.sh
 3. Run the script with a domain name as the argument:
     ```bash
-    ./dkim-checker.sh <domain>
+    ./dkim-lookup.sh <domain>
 
 ## Example
-    $ ./dkim_selectors_verify.sh example.com 
+    $ ./dkim_lookup.sh example.com 
     Checking DKIM records for domain: example.com
     ----------------------------------------
     No DKIM record found for selector: google
